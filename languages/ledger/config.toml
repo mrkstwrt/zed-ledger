@@ -1,0 +1,4 @@
+name = "Ledger"
+grammar = "ledger"
+path_suffixes = ["ledger", "ldg", "ldgr"]
+line_comments = ["; "]
