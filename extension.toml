@@ -3,7 +3,7 @@ name = "Ledger"
 version = "0.0.1"
 schema_version = 1
 authors = ["Mark Stewart <me@markstewart.dev>"]
-description = "Zed language support for ledger journal files"
+description = "Support for ledger journal files"
 repository = "https://github.com/mrkstwrt/zed-ledger"
 
 [grammars.ledger]
