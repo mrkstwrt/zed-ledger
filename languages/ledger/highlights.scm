@@ -1,9 +1,7 @@
 [
-  (block_comment)
-  (comment)
   (note)
-  (test)
-] @comment @spell
+  (comment)
+] @comment
 
 [
   (quantity)
@@ -15,7 +13,7 @@
   (effective_date)
   (time)
   (interval)
-] @string.special
+] @string
 
 [
   (commodity)
@@ -23,9 +21,9 @@
   (option_value)
   (check_in)
   (check_out)
-] @markup.raw
+] @string.special
 
-(account) @variable.member
+(account) @property
 
 "include" @keyword.import
 
