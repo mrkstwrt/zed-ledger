@@ -1,4 +1,4 @@
-id = "zed-ledger"
+id = "ledger"
 name = "Ledger"
 version = "0.0.2"
 schema_version = 1
