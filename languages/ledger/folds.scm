@@ -1,1 +1,1 @@
-(journal_item) @fold
+(xact) @fold

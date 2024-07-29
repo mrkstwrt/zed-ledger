@@ -1,1 +1,1 @@
-(journal_item) @indent.begin
+(xact) @indent
