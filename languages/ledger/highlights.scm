@@ -15,7 +15,7 @@
   (effective_date)
   (interval)
   (time)
-] @string
+] @string.special
 
 [
   (check_in)
@@ -23,7 +23,7 @@
   (commodity)
   (option)
   (option_value)
-] @string.special
+] @string.special.symbol
 
 (payee) @property
 (account) @property
