@@ -1,6 +1,8 @@
 [
+  (block_comment)
   (comment)
   (note)
+  (test)
 ] @comment
 
 [
@@ -23,7 +25,15 @@
   (option_value)
 ] @string.special
 
+(payee) @property
 (account) @property
+(filename) @link_uri
+
+(code) @number
+(code
+    "(" @punctuation.bracket
+    ")" @punctuation.bracket
+)
 
 "include" @keyword.import
 
@@ -42,6 +52,7 @@
   "nomarket"
   "note"
   "payee"
+  "tag"
   "test"
   "A"
   "C"
