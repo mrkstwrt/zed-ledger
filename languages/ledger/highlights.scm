@@ -1,26 +1,26 @@
 [
-  (note)
   (comment)
+  (note)
 ] @comment
 
 [
-  (quantity)
   (negative_quantity)
+  (quantity)
 ] @number
 
 [
   (date)
   (effective_date)
-  (time)
   (interval)
+  (time)
 ] @string
 
 [
+  (check_in)
+  (check_out)
   (commodity)
   (option)
   (option_value)
-  (check_in)
-  (check_out)
 ] @string.special
 
 (account) @property
@@ -32,8 +32,8 @@
   "alias"
   "assert"
   "check"
-  "commodity"
   "comment"
+  "commodity"
   "def"
   "default"
   "end"
@@ -44,9 +44,9 @@
   "payee"
   "test"
   "A"
-  "Y"
-  "N"
-  "D"
   "C"
+  "D"
+  "N"
   "P"
+  "Y"
 ] @keyword
