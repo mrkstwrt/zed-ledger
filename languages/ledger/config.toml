@@ -1,4 +1,4 @@
 name = "Ledger"
 grammar = "ledger"
-path_suffixes = ["ledger", "ldg", "ldgr"]
+path_suffixes = ["journal", "ledger", "ldg", "ldgr"]
 line_comments = ["; "]
