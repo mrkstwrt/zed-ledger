@@ -9,3 +9,8 @@ repository = "https://github.com/mrkstwrt/zed-ledger"
 [grammars.ledger]
 repository = "https://github.com/cbarrete/tree-sitter-ledger"
 commit = "8a841fb20ce683bfbb3469e6ba67f2851cfdf94a"
+
+[language_servers.ledger-language-server]
+name = "ledger-language-server"
+language = "Ledger"
+language_ids = { Ledger = "ledger" }

@@ -1,29 +1,39 @@
 [
-  (note)
+  (block_comment)
   (comment)
+  (note)
+  (test)
 ] @comment
 
 [
-  (quantity)
   (negative_quantity)
+  (quantity)
 ] @number
 
 [
   (date)
   (effective_date)
-  (time)
   (interval)
-] @string
+  (time)
+] @string.special
 
 [
+  (check_in)
+  (check_out)
   (commodity)
   (option)
   (option_value)
-  (check_in)
-  (check_out)
-] @string.special
+] @string.special.symbol
 
+(payee) @property
 (account) @property
+(filename) @link_uri
+
+(code) @number
+(code
+    "(" @punctuation.bracket
+    ")" @punctuation.bracket
+)
 
 "include" @keyword.import
 
@@ -32,8 +42,8 @@
   "alias"
   "assert"
   "check"
-  "commodity"
   "comment"
+  "commodity"
   "def"
   "default"
   "end"
@@ -42,11 +52,12 @@
   "nomarket"
   "note"
   "payee"
+  "tag"
   "test"
   "A"
-  "Y"
-  "N"
-  "D"
   "C"
+  "D"
+  "N"
   "P"
+  "Y"
 ] @keyword
