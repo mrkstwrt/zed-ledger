@@ -8,7 +8,7 @@ repository = "https://github.com/mrkstwrt/zed-ledger"
 
 [grammars.ledger]
 repository = "https://github.com/cbarrete/tree-sitter-ledger"
-commit = "8a841fb20ce683bfbb3469e6ba67f2851cfdf94a"
+commit = "96c92d4908a836bf8f661166721c98439f8afb80"
 
 [language_servers.ledger-language-server]
 name = "ledger-language-server"
